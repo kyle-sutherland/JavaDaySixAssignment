@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="083bbdb0-9238-4bdb-80a9-e9c55f6f685a" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/travelexperts/daysixassignment/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/travelexperts/daysixassignment/connection.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/travelexperts/daysixassignment/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/travelexperts/daysixassignment/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/travelexperts/daysixassignment/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/travelexperts/daysixassignment/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/travelexperts/daysixassignment/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/travelexperts/daysixassignment/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,26 +42,42 @@
     </option>
   </component>
   <component name="ProjectId" id="2NW2DwKqae6DmjIxqVl9ZXRKDA1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/kyle/IdeaProjects/JavaDaySixAssignment",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.40923825",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propGUI",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,6 +89,15 @@
       <option name="presentableId" value="Default" />
       <updated>1679765404867</updated>
       <workItem from="1679765406051" duration="705000" />
+      <workItem from="1679788129593" duration="1542000" />
+      <workItem from="1679792304598" duration="1923000" />
+      <workItem from="1679794328439" duration="55000" />
+      <workItem from="1679794398471" duration="7417000" />
+      <workItem from="1679802847004" duration="4001000" />
+      <workItem from="1679849353275" duration="1873000" />
+      <workItem from="1679851543524" duration="5101000" />
+      <workItem from="1679857370051" duration="124000" />
+      <workItem from="1679857583640" duration="11217000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1679765695461</created>
@@ -99,5 +140,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="selection" language="JAVA" />
+        <watch expression="selection" language="JAVA" />
+        <watch expression="statement" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
