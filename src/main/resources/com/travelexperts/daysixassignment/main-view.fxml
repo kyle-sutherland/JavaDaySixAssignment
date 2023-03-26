@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="1361.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.travelexperts.daysixassignment.MainController">
+    <children>
+        <SplitPane dividerPositions="0.29797979797979796" prefHeight="551.0" prefWidth="823.0" VBox.vgrow="ALWAYS">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="660.0" prefWidth="379.0">
+                    <children>
+                        <Button fx:id="btnSave" layoutX="165.0" layoutY="449.0" mnemonicParsing="false" text="Save" />
+                        <Button fx:id="btnEdit" layoutX="93.0" layoutY="449.0" mnemonicParsing="false" text="Edit" />
+                        <Button fx:id="btnExit" layoutX="243.0" layoutY="449.0" mnemonicParsing="false" text="Exit" />
+                  <TextField fx:id="txtAgentId" layoutX="165.0" layoutY="74.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField fx:id="txtAgtFirstName" layoutX="165.0" layoutY="111.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField fx:id="txtAgtMiddleInitial" layoutX="165.0" layoutY="149.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField fx:id="txtAgtLastName" layoutX="169.0" layoutY="186.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField fx:id="txtAgtBusPhone" layoutX="165.0" layoutY="240.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField fx:id="txtAgtEmail" layoutX="165.0" layoutY="294.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField fx:id="txtAgtPosition" layoutX="165.0" layoutY="338.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField fx:id="txtAgencyId" layoutX="165.0" layoutY="381.0" prefHeight="25.0" prefWidth="207.0" />
+                  <Label layoutX="63.0" layoutY="81.0" text="Label" />
+                  <Label layoutX="63.0" layoutY="118.0" text="Label" />
+                  <Label layoutX="63.0" layoutY="156.0" text="Label" />
+                  <Label layoutX="63.0" layoutY="204.0" text="Label" />
+                  <Label layoutX="63.0" layoutY="247.0" text="Label" />
+                  <Label layoutX="63.0" layoutY="301.0" text="Label" />
+                  <Label layoutX="63.0" layoutY="345.0" text="Label" />
+                  <Label layoutX="63.0" layoutY="388.0" text="Label" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                    <children>
+                        <TableView fx:id="tvAgents" layoutX="40.0" layoutY="100.0" prefHeight="588.0" prefWidth="980.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <columns>
+                        <TableColumn fx:id="colAgentId" prefWidth="90.0" text="Agent ID" />
+                                <TableColumn fx:id="colAgtFirstName" prefWidth="140.0" text="First Name" />
+                                <TableColumn fx:id="colAgtMiddleInitial" prefWidth="66.0" text="Middle" />
+                        <TableColumn fx:id="colAgtLastName" prefWidth="111.0" text="Last Name" />
+                        <TableColumn fx:id="colAgtBusPhone" prefWidth="155.0" text="Business Phone" />
+                        <TableColumn fx:id="colAgtEmail" prefWidth="116.0" text="Email" />
+                        <TableColumn fx:id="colAgtPosition" prefWidth="129.0" text="Position" />
+                        <TableColumn fx:id="colAgencyId" prefWidth="146.0" text="Agency ID" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</VBox>
