@@ -6,5 +6,6 @@ module com.travelexperts.daysixassignment {
 
 
     opens com.travelexperts.daysixassignment to javafx.fxml;
+
     exports com.travelexperts.daysixassignment;
 }
